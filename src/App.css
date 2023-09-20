@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'Irish Grover' ;
+  src: url(./fonts/Irish_Grover/IrishGrover-Regular.ttf) format('truetype');
+}
+body{
+  background-color: #6657F2;
+  color: #FFF;
+  font-family: 'Irish Grover';
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  -webkit-text-stroke-width: 0.01em;
+  -webkit-text-stroke-color: #000;
+}
+button {
+  border: none;
+  cursor: pointer;
+  transition: .3s;
+  opacity: 1;
+
+}
+
+.app{
+  display: flex;
+  margin: 0;
+
+
+}
+.register {
+  margin: 20px;
+  min-width: none;
+  
+}
+.list {
+
+  height: 100vh;
+  background-image: url('./img/background-list-p.png');
+  background-size: cover;
+  margin: 0;
+  width: 100vw;
+  
+}
+.toDo-list {
+  color: #363636;
+  background-color: #FFF;
+  border: #000 solid 1px;
+  border-radius: 8px;
+  margin: 30px 50px;
+  padding: 0;
+}
+.toDo {
+  margin: 10px;
+  text-align: center;
+}
+.form {
+  border: #000 solid 1px;
+  display: flex;
+}
+
+.div-search {
+  margin: 30px 50px;
+  padding: 0;
+  
+}
+.input-search {
+  border-radius: 4px;
+  height: 30px;
+  width: 70vw;
+  margin: 0;
+  padding: 0;
+}
+/*.filter{
+  display: flex;
+  justify-content: space-between;
+}*/
+.div-filter {
+  display: flex;
+  margin: 30px 50px;
+  justify-content: space-between;
+}
+.filter-options{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.button-ordem{
+border-radius: 8px;
+border: 1px solid #000;
+background: #FFF;
+width: 100px;
+height: 40px;
+margin: 5px;
+font-family: 'Irish Grover';
+
+}
