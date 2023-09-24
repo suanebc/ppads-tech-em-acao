@@ -26,6 +26,7 @@ const Register = ({addToDo}) => {
         <select 
         value={category}
         onChange={(e) => setCategory(e.target.value)}>
+          <option value="">TIPO DE TAREFA</option>
         <option value="OUTROS">OUTROS</option>
           <option value="TRABALHO">TRABALHO</option>
           <option value="SAÚDE">SAÚDE</option>

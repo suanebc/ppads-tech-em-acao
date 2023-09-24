@@ -3,6 +3,8 @@
   src: url(./fonts/Irish_Grover/IrishGrover-Regular.ttf) format('truetype');
 }
 body{
+  width: max-content;
+  height:max-content;
   background-color: #6657F2;
   color: #FFF;
   font-family: 'Irish Grover';
@@ -26,20 +28,17 @@ button {
   display: flex;
   margin: 0;
 
-
 }
 .register {
-  margin: 20px;
-  min-width: none;
-  
+  padding-top: 250px;
+  margin: 20px; 
 }
-.list {
 
-  height: 100vh;
+.list {
   background-image: url('./img/background-list-p.png');
   background-size: cover;
   margin: 0;
-  width: 100vw;
+  width: 68vw;
   
 }
 .toDo-list {
@@ -47,7 +46,8 @@ button {
   background-color: #FFF;
   border: #000 solid 1px;
   border-radius: 8px;
-  margin: 30px 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px 40px;
   padding: 0;
 }
 .toDo {
@@ -67,14 +67,11 @@ button {
 .input-search {
   border-radius: 4px;
   height: 30px;
-  width: 70vw;
+  width: 60vw;
   margin: 0;
   padding: 0;
 }
-/*.filter{
-  display: flex;
-  justify-content: space-between;
-}*/
+
 .div-filter {
   display: flex;
   margin: 30px 50px;
