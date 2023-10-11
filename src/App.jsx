@@ -73,7 +73,7 @@ function App() {
 
         <Filter filter={filter} setFilter={setFilter} setSort={setSort} />
 
-        <div className='toDo-list'>
+        <div className='div-to-do-list'>
           {toDos
           .filter((todo) => 
           filter === "All" 

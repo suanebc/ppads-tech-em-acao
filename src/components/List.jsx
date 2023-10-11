@@ -5,15 +5,15 @@ const List = ({todo, removeToDo, completeToDo}) => {
 
   return (
       <div 
-      className='toDo' 
+      className='list-container' 
       style={{textDecoration: todo.isCompleted ? "line-through" : ""}}>
-            <div className='content'>
+            <div className='list-text'>
               <p>{todo.text}</p>
               <p className='category'>({todo.category})</p>
             </div>
-            <div>
-              <button type="submit" onClick={()=> completeToDo(todo.id)}><img src={edit}/></button>
-              <button type="submit" onClick={() => removeToDo(todo.id)}><img src={trash}/></button>
+            <div className='list-div-button'>
+              <button className='list-button' type="submit" onClick={()=> completeToDo(todo.id)}><img src={edit}/></button>
+              <button className='list-button' type="submit" onClick={() => removeToDo(todo.id)}><img src={trash}/></button>
             </div>
           </div>
 

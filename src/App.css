@@ -3,8 +3,6 @@
   src: url(./fonts/Irish_Grover/IrishGrover-Regular.ttf) format('truetype');
 }
 body{
-  width: max-content;
-  height:max-content;
   background-color: #6657F2;
   color: #FFF;
   font-family: 'Irish Grover';
@@ -25,71 +23,111 @@ button {
 }
 
 .app{
-  display: flex;
   margin: 0;
 
 }
-.register {
-  padding-top: 250px;
-  margin: 20px; 
+.register-container {
+
+  
 }
+
 
 .list {
   background-image: url('./img/background-list-p.png');
-  background-size: cover;
-  margin: 0;
-  width: 68vw;
+
   
 }
-.toDo-list {
+.div-to-do-list {
+ 
   color: #363636;
-  background-color: #FFF;
+  background-color: #F4F4F4;
   border: #000 solid 1px;
-  border-radius: 8px;
   font-family: Arial, Helvetica, sans-serif;
-  margin: 20px 40px;
   padding: 0;
 }
-.toDo {
-  margin: 10px;
+.list-container {
+  width: 98%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1%;
   text-align: center;
+  border-bottom: #000 solid 1px;
 }
-.form {
-  border: #000 solid 1px;
+.list-div-button{
+  display: flex;
+  justify-content:space-around;
+  width: 15%;
+  
+}
+.list-button {
+  
+  padding: 0;
+  margin: 0;
+}
+.list-text p {
+  text-align:left;
+}
+.register-form {
   display: flex;
 }
 
-.div-search {
-  margin: 30px 50px;
+.search-container {
+  width: 95%;
+  height: 7%;
+  margin: 5% 1%;
   padding: 0;
   
 }
-.input-search {
-  border-radius: 4px;
-  height: 30px;
-  width: 60vw;
+.search-input {
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
   margin: 0;
   padding: 0;
 }
 
-.div-filter {
-  display: flex;
-  margin: 30px 50px;
-  justify-content: space-between;
-}
-.filter-options{
+.filter-container {
+  width: 93%;
+  height: 20%;
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
+  margin: 2% 2% 5% 2%;
+  padding: 1% 0;
   
 }
 
-.button-ordem{
+
+.filter-button, .filter-options-select{
 border-radius: 8px;
 border: 1px solid #000;
-background: #FFF;
-width: 100px;
-height: 40px;
-margin: 5px;
+width: 100%;
+height: 30px;
+margin: 2%;
 font-family: 'Irish Grover';
+
+}
+@media screen and (min-width: 900px){
+  .app{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .list{
+    background-size: cover;
+    margin: 0;
+    flex-grow: 2;
+  }
+  .register-container{
+    width:30%;
+    padding-top: 15%;
+    margin: 2%;
+  }
+  .div-to-do-list{
+    width: 93%;
+    border-radius: 8px;
+    margin: 5% 2%;
+  }
 
 }

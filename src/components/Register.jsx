@@ -16,18 +16,18 @@ const Register = ({addToDo}) => {
   };
 
   return (
-    <div className ='register'>
-      <form onSubmit={handleSubmit} className='form'>
+    <div className='register-container'>
+      <form onSubmit={handleSubmit} className='register-form'>
         <input 
         type="text"
          placeholder='Digite o Título de sua tarefa'
          value={value} 
          onChange={(e) => setValue(e.target.value)}/>
-        <select 
+        <select className='register-select'
         value={category}
         onChange={(e) => setCategory(e.target.value)}>
-          <option value="">TIPO DE TAREFA</option>
-        <option value="OUTROS">OUTROS</option>
+          <option value="">TIPO</option>
+          <option value="OUTROS">OUTROS</option>
           <option value="TRABALHO">TRABALHO</option>
           <option value="SAÚDE">SAÚDE</option>
           <option value="PESSOAL">PESSOAL</option>

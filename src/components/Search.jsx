@@ -2,12 +2,12 @@ import React from 'react'
 
 const Search = ({search, setSearch}) => {
   return (
-    <div className='div-search'>
+    <div className='search-container'>
       <input 
       type='text'
       value={search}
       onChange={(e) => setSearch(e.target.value)}
-      className='input-search'
+      className='search-input'
       placeholder='Buscar por ...' />
     </div>
   )
