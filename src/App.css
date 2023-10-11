@@ -23,19 +23,15 @@ button {
 }
 
 .app{
+  display: flex;
   margin: 0;
-
 }
-.register-container {
-
-  
-}
-
-
-.list {
+.div-list {
   background-image: url('./img/background-list-p.png');
-
-  
+  background-size: cover;
+  margin: 0;
+  width: 93%;
+  border-radius: 8px;
 }
 .div-to-do-list {
  
@@ -44,20 +40,28 @@ button {
   border: #000 solid 1px;
   font-family: Arial, Helvetica, sans-serif;
   padding: 0;
+  margin: 5% 2%;
 }
+.filter-container {
+  
+}
+
+.filter-button, .filter-options-select{
+border-radius: 8px;
+border: 1px solid #000;
+width: 100%;
+height: 30px;
+margin: 2%;
+font-family: 'Irish Grover';
+}
+
 .list-container {
-  width: 98%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 1%;
+
   text-align: center;
   border-bottom: #000 solid 1px;
 }
 .list-div-button{
-  display: flex;
-  justify-content:space-around;
-  width: 15%;
+
   
 }
 .list-button {
@@ -68,66 +72,194 @@ button {
 .list-text p {
   text-align:left;
 }
+.register-button{
+  border-radius: 0 20px 20px 0 ;
+  
+}
+.register-container {
+  
+}
+
+.register-input {
+  border-radius: 20px 0 0 20px;
+  border: transparent;
+  background-color: #F4F4F4;
+}
+
 .register-form {
   display: flex;
 }
-
+.register-select{
+  background-color: #F4F4F4;
+  width: 60px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  
+}
 .search-container {
   width: 95%;
-  height: 7%;
+  
   margin: 5% 1%;
   padding: 0;
   
+  
 }
+
 .search-input {
+  border: transparent;
   border-radius: 5px;
   height: 100%;
   width: 100%;
   margin: 0;
   padding: 0;
-}
-
-.filter-container {
-  width: 93%;
-  height: 20%;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin: 2% 2% 5% 2%;
-  padding: 1% 0;
   
 }
 
-
-.filter-button, .filter-options-select{
-border-radius: 8px;
-border: 1px solid #000;
-width: 100%;
-height: 30px;
-margin: 2%;
-font-family: 'Irish Grover';
-
-}
-@media screen and (min-width: 900px){
+/****************************************************************************/
+@media screen and (min-width: 1000px){
   .app{
-    display: flex;
+    
     justify-content: space-between;
   }
-
-  .list{
-    background-size: cover;
-    margin: 0;
+  .div-list{
+    width: min-content;
     flex-grow: 2;
-  }
-  .register-container{
-    width:30%;
-    padding-top: 15%;
-    margin: 2%;
   }
   .div-to-do-list{
     width: 93%;
     border-radius: 8px;
-    margin: 5% 2%;
-  }
 
+  }
+  .filter-container {
+    width: 93%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 2% 2% 5% 2%;
+    padding: 1% 0;
+    
+  }
+  
+  
+  .filter-button, .filter-options-select{
+
+  
+  }
+  .list-container {
+    width: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1%;
+ 
+  }
+  .list-div-button{
+    display: flex;
+    justify-content:space-around;
+    width: 15%;
+    
+  }
+  .list-button {
+    
+    padding: 0;
+    margin: 0;
+  }
+  .list-text p {
+  }
+  
+  .register-container{
+    width: min-content;
+    padding-top: 15%;
+    margin: 2%;
+  }
+  .register-form {
+    display: flex;
+  }
+  
+  .search-container {
+    
+    height: 7%;
+    margin: 5% 1%;
+    padding: 0;
+    
+  }
+  .search-input {
+    
+  }
+}
+
+@media screen and (max-width: 600px){
+  .app {
+    flex-direction: column;
+    height:100vh;
+    
+  }
+  .div-list{
+    width: 100%;
+    flex-grow: 2;
+  }
+  .div-to-do-list{
+
+    
+  }
+  .filter-container {
+    width: 93%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 2% 2% 5% 2%;
+    padding: 1% 0;
+    
+  }
+  
+  
+  .filter-button, .filter-options-select{
+
+  
+  }
+  .list-container {
+    width: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1%;
+ 
+  }
+  .list-div-button{
+    display: flex;
+    justify-content:space-around;
+    width: 15%;
+    
+  }
+  .list-button {
+    
+    padding: 0;
+    margin: 0;
+  }
+  .list-text p {
+  }
+  
+  .register-container{
+    padding: 2%;
+    margin: 5%;    
+    /*order: 1;*/
+
+  }
+  .register-form {
+    
+  }
+  .register-input{
+    width: 100%;
+  }
+  
+  .search-container {
+
+    height: 45px;
+
+    
+  }
+  .search-input {
+    
+  }
 }

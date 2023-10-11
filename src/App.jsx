@@ -68,7 +68,7 @@ function App() {
     <div className='app'>
       <Register addToDo={addToDo} />
 
-      <div className='list'>
+      <div className='div-list'>
         <Search search={search} setSearch={setSearch} />
 
         <Filter filter={filter} setFilter={setFilter} setSort={setSort} />

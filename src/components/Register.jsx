@@ -18,9 +18,9 @@ const Register = ({addToDo}) => {
   return (
     <div className='register-container'>
       <form onSubmit={handleSubmit} className='register-form'>
-        <input 
+        <input  className='register-input'
         type="text"
-         placeholder='Digite o Título de sua tarefa'
+         placeholder='Digite aqui sua tarefa'
          value={value} 
          onChange={(e) => setValue(e.target.value)}/>
         <select className='register-select'
@@ -33,7 +33,7 @@ const Register = ({addToDo}) => {
           <option value="PESSOAL">PESSOAL</option>
           <option value="EDUCAÇÃO">EDUCAÇÃO</option>
         </select>
-        <button type="submit"><img src={botao}/></button>
+        <button className='register-button' type="submit"><img src={botao}/></button>
       </form>
     </div>
   )
