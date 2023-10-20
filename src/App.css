@@ -42,10 +42,11 @@ button {
   padding: 0;
   margin: 5% 2%;
 }
+/*
 .filter-container {
   
 }
-
+*/
 .filter-button, .filter-options-select{
 border-radius: 8px;
 border: 1px solid #000;
@@ -60,10 +61,11 @@ font-family: 'Irish Grover';
   text-align: center;
   border-bottom: #000 solid 1px;
 }
+/*
 .list-div-button{
 
   
-}
+}*/
 .list-button {
   
   padding: 0;
@@ -76,9 +78,11 @@ font-family: 'Irish Grover';
   border-radius: 0 20px 20px 0 ;
   
 }
+/*
 .register-container {
   
 }
+*/
 
 .register-input {
   border-radius: 20px 0 0 20px;
@@ -140,11 +144,12 @@ font-family: 'Irish Grover';
     
   }
   
-  
+/*
   .filter-button, .filter-options-select{
 
   
   }
+  */
   .list-container {
     width: 98%;
     display: flex;
@@ -164,9 +169,10 @@ font-family: 'Irish Grover';
     padding: 0;
     margin: 0;
   }
+  /*
   .list-text p {
   }
-  
+  */
   .register-container{
     width: min-content;
     padding-top: 15%;
@@ -183,9 +189,11 @@ font-family: 'Irish Grover';
     padding: 0;
     
   }
+/*
   .search-input {
     
   }
+*/
 }
 
 @media screen and (max-width: 600px){
@@ -198,10 +206,12 @@ font-family: 'Irish Grover';
     width: 100%;
     flex-grow: 2;
   }
+  /*
   .div-to-do-list{
 
     
   }
+  */
   .filter-container {
     width: 93%;
     height: 20%;
@@ -212,12 +222,13 @@ font-family: 'Irish Grover';
     padding: 1% 0;
     
   }
-  
+/*
   
   .filter-button, .filter-options-select{
 
   
   }
+  */
   .list-container {
     width: 98%;
     display: flex;
@@ -237,18 +248,21 @@ font-family: 'Irish Grover';
     padding: 0;
     margin: 0;
   }
+/*
   .list-text p {
   }
-  
+  */
   .register-container{
     padding: 2%;
     margin: 5%;    
     /*order: 1;*/
 
   }
+  /*
   .register-form {
     
   }
+  */
   .register-input{
     width: 100%;
   }
@@ -259,7 +273,9 @@ font-family: 'Irish Grover';
 
     
   }
+  /*
   .search-input {
     
   }
+  */
 }
