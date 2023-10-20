@@ -12,7 +12,7 @@ function App() {
   const [toDos, setToDos] = useState([
     {
       id:1,
-      text: "criar funcionalidade x no sistema",
+      text: "criar tag v1 correspondente ao código-fonte conforme à entrega da Iteração 1 da construção",
       category: "Trabalho",
       isCompleted: false,
     },
