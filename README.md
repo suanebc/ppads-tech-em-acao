@@ -19,14 +19,14 @@ Um lista de tarefas online para inserção, edição e exclução de tarefas de 
 - Ordenar por ordem Alfabética
 
 ## 🛠️ Tecnologias utilizadas
- - ´´Javascript´´
- - ´´React´´
- - ´´Figma´´
- - ´´brModelo´´
- - ´´HTML´´
- - ´´CSS´´
- - ´´Vite´´
- - ´´Vercel´´
+``Javascript``
+``React``
+``Figma``
+``brModelo``
+``HTML``
+``CSS``
+``Vite``
+``Vercel``
 
 ## 🤖 Instalações necessárias para execução do projeto
 - Baixe o projeto em sua máquina
