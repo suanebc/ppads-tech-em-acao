@@ -14,9 +14,9 @@ Um lista de tarefas online para inserção, edição e exclução de tarefas de 
 - Criar uma tarefa
 - Classifica-la
 - Marcar como Completada
-- Filtar por sua classificação
+- Filtrar por sua classificação
 - Buscar por um conteúdo
-- Ordenar por ordem Alfabética
+- Ordenar por ordem Crescente/Decrescente
 
 ## 🛠️ Tecnologias utilizadas
 ``Javascript``
